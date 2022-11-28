@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+}
+.link {
+  text-decoration: none;
+}
+ul{
+  padding-inline-start: 0px;
+}
+li{
+  list-style: none;
+}
+.flex {
+  display: flex;
+}
+.gap {
+  gap: rem;
+}
+.gap1 {
+  gap: 1rem;
+}
+.column-flex {
+  flex-direction: column;
+}
+.space-between {
+  justify-content: space-between;
+}
+.icon {
+  background-color: #f1f2f8;
+  padding: 14px;
+  border-radius: 50%;
+}
+.cursor{
+  cursor: pointer;
+}
+.footer-headings {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #f1f2f8;
+  font-family: "Merriweather Sans";
+}
+
+.footer-subheading {
+  font-family: "Hind Siliguri";
+  font-style: normal;
+  color: #e7e9eb;
+}
+footer {
+  margin: 0;
+  padding: 0;
+  background-image: url(https://res.cloudinary.com/dvbw8xujd/image/upload/v1669636920/maurf7x17l6sr9r2pbp7.svg);
+  padding: 100px 50px 200px;
+}
