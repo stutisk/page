@@ -14,7 +14,7 @@ li{
   display: flex;
 }
 .gap {
-  gap: rem;
+  gap: 2rem;
 }
 .gap1 {
   gap: 1rem;
@@ -25,10 +25,18 @@ li{
 .space-between {
   justify-content: space-between;
 }
+.padding1{
+  padding: 12px;
+}
+.padding2{
+  padding: 2px;
+}
 .icon {
   background-color: #f1f2f8;
-  padding: 14px;
+ 
   border-radius: 50%;
+  color: #152765;
+
 }
 .cursor{
   cursor: pointer;
