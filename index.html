@@ -4,92 +4,57 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/7f4b9645a7.js"
-      crossorigin="anonymous"
-    ></script>
 
     <title>Toksills learn</title>
   </head>
 
-  <body style="margin: 0px">
-    <div>
+  <body>
+    <button id="Modal">Modal</button>
+    <div
+      id="ModalBox"
+      style="
+        background-color: red;
+        display: none !important;
+        position: fixed;
+        z-index: 1;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.4);
+      "
+    >
       <div
         style="
-          background: linear-gradient(
-            69.38deg,
-            #ffffff -0.91%,
-            #152765 -0.9%,
-            #00b7cb 59%
-          );
-          color: #ffffff;
-        "
-      >
-        <div
-          style="
-            margin-left: 120px;
-            padding: 50px 0px 50px;
-            display: flex;
-            flex-direction: column;
-            max-width: 70rem;
-            font-family: 'Merriweather Sans', sans-serif;
-            gap: 2rem;
-          "
-        >
-          <div style="font-weight: 600; font-size: 38px">
-            <!-- {{TITLE}} -->
-            Learn Podcasting From Scratch
-          </div>
-          <div
-            class="size-18"
-            id="1665064668496"
-            style="max-width: 30rem; font-family: 'Hind Siliguri', sans-serif"
-          >
-            <!-- {{TAGLINE}} -->
-
-            How To Create AI Assistant (JARVIS) With Python Like the One from
-            Marvel's Iron Man Movie
-          </div>
-          <div
-            class="size-18"
-            id="ratingBlock"
-            style="font-family: Arimo, sans-serif"
-          >
-            {{STARRATING}} ({{RATINGCOUNT}})
-          </div>
-          <div style="font-family: 'Hind Siliguri', sans-serif">
-            <span style="font-weight: 700">Created By </span> Instructor Name
-          </div>
-          <div style="display: flex; gap: 1rem">
-            <div style="font-family: 'Hind Siliguri', sans-serif">
-              <i class="fa-solid fa-language fa-lg"></i>
-            </div>
-            <div>English</div>
-          </div>
-          <div style="display: flex; gap: 1rem">
-            <div style="font-family: 'Hind Siliguri', sans-serif">
-              <i class="fa-solid fa-language fa-lg"></i>
-            </div>
-            <div>Valid Till {{PRICINGVALIDITYINFO}}</div>
-          </div>
-        </div>
-      </div>
-      <div
-        style="
-          margin-left: 120px;
-         
+          box-shadow: rgba(7, 150, 179, 0.64) 0px 2px 1px 1px;
+          border: 2px solid rgb(241, 252, 254);
+          cursor: pointer;
+          color: black;
+          background-color: rgb(241, 252, 254);
+          border-radius: 6px;
+          padding: 12px 22px;
+          line-height: 1.5;
+          letter-spacing: 1px;
+          width: 350px;
           display: flex;
-          flex-direction: column;
-          max-width: 70rem;
-          font-family: 'Merriweather Sans', sans-serif;
-          gap: 2rem;
+          margin: auto;
+          margin-top: 1rem;
+          max-width: 70%;
         "
       >
-        <h3 style="font-weight: 700; font-size: 28px">
-          <!-- {{TITLE}} -->
-          What You'll Learn
-        </h3>
+        <p>
+          You will receive 25 Tokskill Coins Whenever You refer your friend.You
+          will receive 25 Tokskill Coins Whenever You refer your friendYou will
+          receive 25 Tokskill Coins Whenever You refer your friend
+          <a href="https://www.tokskill.com/">REFer</a>
+        </p>
       </div>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
