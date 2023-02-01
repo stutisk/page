@@ -1,18 +1,21 @@
-var modalButton = document.querySelector("#Modal");
-var modalBox= document.querySelector("#ModalBox");
-console.log(modalButton)
+var Button = document.querySelector(".submitBtn");
+var Name = document.querySelector(".form-input-name");
+Button.disabled = true;
+
+Button.addEventListener("click", () => {
+  console.log("hey");
+});
+
+Name.addEventListener("input", (e) => {
 
 
-modalButton.addEventListener("click",() => {
-    console.log("hey")
-    modalBox.style.display="block"
-   
-  })
- 
+  if (e.target.value.length < 1  ) {
+  console.log("enter value");
+  Button.disabled = true;
+  
+  } else {
+    console.log(e.target.value.length);
+    Button.disabled = false;
 
-  window.addEventListener("click",(e) => {
-    if (e.target == modalBox) {
-        modalBox.style.display = "none";
-    }
-
-  })
+  }
+});

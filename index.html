@@ -7,54 +7,174 @@
 
     <title>Toksills learn</title>
   </head>
+  <style>
+    abbr[title] {
+      text-decoration: none;
+    }
+    abbr {
+      position: relative;
+    }
 
+    abbr:hover::after {
+      color: rgb(7, 150, 179);
+      background-color: rgb(241, 252, 254);
+      border-radius: 6px;
+      line-height: 1.5;
+      font-weight: bold;
+      letter-spacing: 1px;
+      content: attr(title);
+      display: block;
+      left: 10%;
+      padding: 1em;
+      position: absolute;
+      width: 350px;
+      z-index: 1;
+    }
+  </style>
   <body>
-    <button id="Modal">Modal</button>
     <div
-      id="ModalBox"
-      style="
-        background-color: red;
-        display: none !important;
-        position: fixed;
-        z-index: 1;
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        overflow: auto;
-        background-color: rgb(0, 0, 0);
-        background-color: rgba(0, 0, 0, 0.4);
-      "
+      id="1673866608664d"
+      data-cat="116"
+      class="is-section is-section-100 is-box is-bg-light is-dark-text"
     >
-      <div
-        style="
-          box-shadow: rgba(7, 150, 179, 0.64) 0px 2px 1px 1px;
-          border: 2px solid rgb(241, 252, 254);
-          cursor: pointer;
-          color: black;
-          background-color: rgb(241, 252, 254);
-          border-radius: 6px;
-          padding: 12px 22px;
-          line-height: 1.5;
-          letter-spacing: 1px;
-          width: 350px;
-          display: flex;
-          margin: auto;
-          margin-top: 1rem;
-          max-width: 70%;
-        "
-      >
-        <p>
-          You will receive 25 Tokskill Coins Whenever You refer your friend.You
-          will receive 25 Tokskill Coins Whenever You refer your friendYou will
-          receive 25 Tokskill Coins Whenever You refer your friend
-          <a href="https://www.tokskill.com/">REFer</a>
-        </p>
+      <div class="is-boxes">
+        <div class="is-box-centered">
+          <div class="is-container container" style="max-width: 1420px">
+            <div class="row clearfix">
+       
+              <div class="column half">
+                <h1 style="text-align: center; color: #00b7cb">Get in Touch</h1>
+                <div class="spectre" id="1652098300393">
+                  <form
+                    class="bg-transparent spContactForm"
+                    action="/enquiry"
+                    method="POST"
+                    style="font-family: Arimo, sans-serif"
+                    siq_id="autopick_7814"
+                  >
+                    <div
+                      class="form-group size-14"
+                      id="1652098300393"
+                      style="font-family: Merriweather Sans"
+                    >
+                      <label
+                        class="form-label size-14"
+                        style="
+                          color: rgb(53, 53, 53);
+                          font-family: 'Merriweather Sans';
+                        "
+                        >Name <span style="color: red">*</span></label
+                      >
+                      <input
+                        id="name"
+                        class="form-input-name"
+                        name="name"
+                        type="text"
+                        placeholder="Name"
+                        
+                      />
+                     
+                    </div>
+                    <div
+                      class="form-group"
+                      id="1652098300393"
+                      style="font-family: Merriweather Sans"
+                    >
+                      <label
+                        class="form-label size-14"
+                        style="
+                          color: rgb(53, 53, 53);
+                          font-family: Merriweather Sans;
+                        "
+                        >Email <span style="color: red">*</span></label
+                      >
+                      <input
+                        id="email"
+                        class="form-input"
+                        name="email"
+                        type="email"
+                        placeholder="Email"
+                        required=""
+                      />
+                    </div>
+                    <div
+                      class="form-group"
+                      id="1652098300393"
+                    >
+                      <label
+                        class="form-label size-14"
+                        style="
+                          color: rgb(53, 53, 53);
+                          font-family: Merriweather Sans;
+                        "
+                        >Mobile <span style="color: red">*</span></label
+                      >
+                      <input
+                        id="mobile"
+                        class="form-input"
+                        name="phone"
+                        type="text"
+                        placeholder="Mobile"
+                        required=""
+                      />
+                    </div>
+                    <div
+                      class="form-group"
+                      id="1652098300393"
+                      style="font-family: Merriweather Sans"
+                    >
+                      <label
+                        class="form-label size-14"
+                        style="
+                          color: rgb(53, 53, 53);
+                          font-family: Merriweather Sans;
+                        "
+                        >Message <span style="color: red">*</span></label
+                      >
+                      <textarea
+                        id="message"
+                        class="form-input"
+                        name="query"
+                        placeholder="Message"
+                        rows="3"
+                        required=""
+                      ></textarea>
+                    </div>
+                    <div class="row clearfix" style="margin-top: 20px">
+                      <div class="column full">
+                        <div style="margin: 10px 0px; text-align: center">
+                          <span style="font-family: 'Merriweather Sans'">
+                            <button
+                            disabled
+                              type="button"
+                              class="submitBtn is-btn is-btn-ghost2 is-upper is-rounded-30 is-btn-small submitBtn"
+                           
+                              id="redirectBtn"
+                            >
+                              SUBMIT
+                            </button>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <link
+              href="//fonts.googleapis.com/css?family=Merriweather Sans:300,700"
+              rel="stylesheet"
+              property="stylesheet"
+              type="text/css"
+            />
+          </div>
+        </div>
       </div>
     </div>
+
+  
+  
+    
     <script src="index.js"></script>
   </body>
 </html>
